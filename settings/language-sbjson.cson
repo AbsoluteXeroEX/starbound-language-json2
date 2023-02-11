@@ -8,3 +8,6 @@
     )'
     'increaseIndentPattern': '^.*(\\{[^}]*|\\[[^\\]]*)$'
     'decreaseIndentPattern': '^\\s*[}\\]],?\\s*$'
+    'commentStart': '//'
+    'commentBlockStart': '/*'
+    'commentBlockEnd': '*/'
