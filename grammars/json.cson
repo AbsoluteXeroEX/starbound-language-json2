@@ -1,5 +1,5 @@
-'scopeName': 'source.json'
-'name': 'JSON'
+'scopeName': 'source.sbjson'
+'name': 'Starbound JSON v2'
 'fileTypes': [
   'avsc'
   'babelrc'
@@ -29,6 +29,85 @@
   'topojson'
   'webapp'
   'webmanifest'
+  '2functions'
+	'achievement'
+	'activeitem'
+	'aimission'
+	'animation'
+	'augment'
+	'back'
+	'beamaxe'
+	'behavior'
+	'behavior-project'
+	'biome'
+	'bush'
+	'chest'
+	'cinematic'
+	'codex'
+	'collection'
+	'combofinisher'
+	'configfunctions'
+	'consumable'
+	'currency'
+	'cursor'
+	'damage'
+	'disabled'
+	'dungeon'
+	'effectsource'
+	'event'
+	'flashlight'
+	'frames'
+	'functions'
+	'grass'
+	'harvestingtool'
+	'head'
+	'inspectiontool'
+	'instrument'
+	'item'
+	'itemdescription'
+	'legs'
+	'liqitem'
+	'liquid'
+	'material'
+	'matitem'
+	'matmod'
+	'miningtool'
+	'modularfoliage'
+	'modularstem'
+	'monsterpart'
+	'monsterskill'
+	'monstertype'
+	'namesource'
+	'nodes'
+	'npctype'
+	'object'
+	'painttool'
+	'parallax'
+	'particle'
+	'particlesource'
+	'partparams'
+	'patch'
+	'projectile'
+	'questtemplate'
+	'radiomessages'
+	'recipe'
+	'spawntypes'
+	'species'
+	'stagehand'
+	'statuseffect'
+	'structure'
+	'tech'
+	'tenant'
+	'terrain'
+	'thrownitem'
+	'tillingtool'
+	'tooltip'
+	'treasurepools'
+	'unlock'
+	'vehicle'
+	'weaponability'
+	'weather'
+	'wiretool'
 ]
 'patterns': [
   {
@@ -161,5 +240,28 @@
       }
       {
         'include': '#object'
+      }
+    ]
+  'comments':
+    'patterns': [
+      {
+        'match': '/{2}.*'
+        'name': 'comment.single.json'
+      }
+      {
+        'begin': '/\\*\\*(?!/)'
+        'captures':
+          '0':
+            'name': 'punctuation.definition.comment.json'
+        'end': '\\*/'
+        'name': 'comment.block.json.begin'
+      }
+      {
+        'begin': '/\\*'
+        'captures':
+          '0':
+            'name': 'punctuation.definition.comment.json'
+        'end': '\\*/'
+        'name': 'comment.block.json.end'
       }
     ]
