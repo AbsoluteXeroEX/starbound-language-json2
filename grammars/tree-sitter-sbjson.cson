@@ -1,7 +1,7 @@
 name: 'JSON'
-scopeName: 'source.json'
+scopeName: 'source.sbjson'
 type: 'tree-sitter'
-parser: 'tree-sitter-json'
+parser: 'tree-sitter-sbjson'
 
 fileTypes: [
   'avsc'
