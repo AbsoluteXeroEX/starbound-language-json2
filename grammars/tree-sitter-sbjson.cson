@@ -1,4 +1,4 @@
-name: 'JSON'
+name: 'Starbound JSON v2'
 scopeName: 'source.sbjson'
 type: 'tree-sitter'
 parser: 'tree-sitter-sbjson'
