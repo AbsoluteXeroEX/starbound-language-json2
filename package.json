@@ -1,7 +1,7 @@
 {
-  "name": "language-json",
-  "version": "1.0.5",
-  "description": "JSON language support in Atom",
+  "name": "starbound-language-json2",
+  "version": "1.0.0",
+  "description": "Starbound JSON language support in Pulsar",
   "engines": {
     "atom": "*",
     "node": "*"
@@ -9,11 +9,11 @@
   "homepage": "http://atom.github.io/language-json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/language-json.git"
+    "url": "https://github.com/AbsoluteXeroEX/starbound-language-json2.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atom/language-json/issues"
+    "url": "https://github.com/AbsoluteXeroEX/starbound-language-json2/issues"
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"
