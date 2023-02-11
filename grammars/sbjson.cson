@@ -254,7 +254,7 @@
           '0':
             'name': 'punctuation.definition.comment.json'
         'end': '\\*/'
-        'name': 'comment.block.json.begin'
+        'name': 'comment.block.documentation.json'
       }
       {
         'begin': '/\\*'
@@ -262,6 +262,6 @@
           '0':
             'name': 'punctuation.definition.comment.json'
         'end': '\\*/'
-        'name': 'comment.block.json.end'
+        'name': 'comment.block.json'
       }
     ]
